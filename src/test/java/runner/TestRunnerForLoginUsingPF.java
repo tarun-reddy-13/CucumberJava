@@ -20,6 +20,9 @@ comment the file LoginDemoSteps_POM.java
     }
 )
 public class TestRunnerForLoginUsingPF {
+    /*public static void main(String[] args) {
+        System.out.println("Test Started...");
+    }*/
 }
 
 
