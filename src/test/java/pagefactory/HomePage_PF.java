@@ -17,6 +17,7 @@ public class HomePage_PF {
     @FindBy(id="logout_sidebar_link")
     WebElement btn_logout;
 
+
     public HomePage_PF(WebDriver driver){
         this.driver=driver;
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 30), this);
