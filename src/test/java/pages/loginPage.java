@@ -10,6 +10,7 @@ public class loginPage {
     private By btn_login = By.id("login-button");
 
     private By menu = By.id("react-burger-menu-btn");
+
     private By btn_logout = By.id("logout_sidebar_link");
 
     public loginPage(WebDriver driver){
