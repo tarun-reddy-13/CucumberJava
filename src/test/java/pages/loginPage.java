@@ -14,6 +14,7 @@ public class loginPage {
 
     public loginPage(WebDriver driver){
         this.driver = driver;
+        System.out.println("In Login Page");
         if(!driver.getTitle().equals("Swag Labs"))
             throw new IllegalStateException("This is not Login Page. The Current page is: "+driver.getCurrentUrl());
     }
