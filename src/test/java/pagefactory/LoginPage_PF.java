@@ -18,6 +18,7 @@ public class LoginPage_PF {
     @FindBy(id="login-button")
     WebElement btn_login;
 
+    
     public LoginPage_PF(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(new AjaxElementLocatorFactory(driver, 30), this);
