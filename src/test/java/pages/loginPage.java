@@ -13,6 +13,11 @@ public class loginPage {
 
     private By btn_logout = By.id("logout_sidebar_link");
 
+
+    //Demo for git rebase
+
+
+
     public loginPage(WebDriver driver){
         this.driver = driver;
         System.out.println("In Login Page");
