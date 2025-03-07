@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 public class LoginPage_PF {
-    private WebDriver driver;
+    private WebDriver driver
     @FindBy(id="user-name")
     WebElement txt_username;
 
